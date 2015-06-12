@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Tue May 12 16:03:20 CST 2015
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=com.edu.buaa.les.log.jar
+manifest.mergeall=true
+manifest.mainclass=com.edu.buaa.les.log.main.Main
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

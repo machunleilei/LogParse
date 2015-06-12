@@ -1,0 +1,1 @@
+java -cp . com.edu.buaa.les.log.main.Main 2> result
