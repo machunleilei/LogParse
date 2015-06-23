@@ -85,8 +85,8 @@ public class Main {
 		/* 注册事件处理函数 */
 		parser.regiseterDefaultParse();
 		parser.parseAll();
-		/*parser.printAllInfo();
-		System.exit(0);*/
+		parser.printAllInfo();
+		System.exit(0);
 		/* 过滤日志 */
 		/* 获取得到的日志 */
 		LinkedList<BaseLogStructInfo> logs = parser.getParsedLogs();
@@ -103,7 +103,7 @@ public class Main {
 	}
 	
 	public static void main(String[] args){
-		String filePath = "D:\\eclipse4.2.2\\workspace\\com.edu.buaa.les.log\\logfile\\target.svr";
+		String filePath = "C:\\Users\\Machunlei\\eclipse\\com.edu.buaa.les.log\\logfile\\target.svr";
 		//Main obj = new Main("/home/mcl/workspace/eclipse/java/Replay/logfile/target.svr");
 		Main obj = new Main(filePath);
 		obj.defaultSetTaskName();

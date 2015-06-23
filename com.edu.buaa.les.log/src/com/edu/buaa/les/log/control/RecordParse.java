@@ -158,6 +158,14 @@ public class RecordParse {
 		this.registerParser(
 				new LogType4Integer(RecordTypeValue.LES_EVENT_CPUINDEX),
 				new CpuIndexLogParser());
+		
+		this.registerParser(
+				new LogType4Integer(RecordTypeValue.LES_EVENT_INTERRUPTENTERCONTEXT), 
+				new InterruptEnterContextLogParser());
+		
+		this.registerParser(
+				new LogType4Integer(RecordTypeValue.LES_EVENT_INTERRUPTEXITCONTEXT), 
+				new InterruptExitContextLogParser());
 	}
 	
 	/* 获取解析得到的日志 */
